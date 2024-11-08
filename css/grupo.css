@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    overflow: hidden;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;  /* Define duas linhas: uma para o conteúdo (que ocupa o máximo de espaço) e uma para o rodapé */
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #A91818 solid 2px;
+}
+header .header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+header .header-left img{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+header .header-left h1{
+    color: #A91818;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: inter;
+}
+header .header-right{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-right h2{
+    color: #A91818;
+    font-family: inter;
+    font-size: 25;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+.nome h2{
+    width: 100%;
+    padding-left: 40px;
+    color: #A91818;
+    font-size: 40px;
+
+
+}
+.grupo .perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: auto;
+}
+
+
+
+.perfil .eder{
+    display: flex;
+    width: 30%;
+    margin-right: 250px;
+    height: 550px;
+    padding-bottom: 38px;
+}
+.fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9;
+    border: #333 solid 2px;
+    border-radius: 30px;
+}
+.fundo img{
+    border: solid 2px #333;
+    border-radius: 20px;
+    width: 80%;
+}
+.fundo p{
+    color: black;
+    font-weight: 600;
+}
+
+.perfil .gab{
+    display: flex;
+    width: 32%;
+    height: 550px;
+    padding-bottom: 38px;
+}
+
+
+
+
+
+.perfil .leo{
+    display: flex;
+    width: 30%;
+    height: 550px;
+    padding-bottom: 38px;
+    margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para o footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.footer .div-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer .div-left img{
+    width: 50px;
+}
+.footer .div-left span{
+    color: #A91818;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.footer .div-center{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    width: 50%;
+}
+.footer .div-center img{
+    width: 150px;
+}
