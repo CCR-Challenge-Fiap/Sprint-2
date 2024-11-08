@@ -62,37 +62,138 @@ header .header-right{
     transform: scale(1.05);
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: 81vh;
+    
+}
+
+.viagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5%;
+    width: 50%;
+    height: 700px;
+    border-radius: 30px;
+    background-color: #A91818;
+    border: solid 2px #000;
+
+}
+.selectLinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.viagem .selectLinha .inicio{
+    display: flex;
+    flex-direction: column;
+}
+.inicio p{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.inicio select{
+    width: 90%;
+    height: 30px;
+    border: #ffffff solid 2px;
+    border-radius: 30px;
+    text-align: center;
+}
+.viagem .selectLinha .destino{
+    display: flex;
+    flex-direction: column;
+}
+.destino p{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.destino select{
+    width: 90%;
+    height: 30px;
+    border: #ffffff solid 2px;
+    border-radius: 30px;
+    text-align: center;
+}
+.viagem img{
+    width: 700px;
+    border: solid 3px #000;
+    border-radius: 30px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+    width: 30%;
+    height: 700px;
+    border-radius: 30px;
+    background-color: #A91818;
+    border: solid 2px #000;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.campo input {
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    outline: none;
+}
 
 
+.dados textarea {
+    width: 90%;
+    height: 30%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: #000;
+    resize: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dados p{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 

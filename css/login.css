@@ -113,3 +113,13 @@ header  h1{
 .cadastro a:hover{
     transform: scale(1.05);
 }
+
+input.erro {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    color: red;
+}
+
+input.erro::placeholder {
+    color: red;
+}

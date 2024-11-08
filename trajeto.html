@@ -28,29 +28,54 @@
         </div>
     </header>
 
+    <section>
+        <div id="container">
+            <div class="viagem">
 
+                
+                <div class="selectLinha">
+                
+                    <div class="inicio">
+                        <p>Informe sua Localização: </p>
+                        <select name="linhaInicio" id="LinhaInicio">
+                            <option value="">Selecione a Linha</option>
+                            <option value="azul">Linha 1 - AZUL</option>
+                            <option value="verde">Linha 2 - VERDE</option>
+                            <option value="vermelha">Linha 3 - VERMELHA</option>
+                            <option value="amarela">Linha 4 - AMARELA</option>
+                        </select>
+                    </div>
+                    <div class="destino">
+                        <p>Informe a Linha de Destino:</p>
+                        <select name="linhaDestino" id="LinhaDestino">
+                            <option value="">Selecione a Linha</option>
+                            <option value="azul">Linha 1 - AZUL</option>
+                            <option value="verde">Linha 2 - VERDE</option>
+                            <option value="vermelha">Linha 3 - VERMELHA</option>
+                            <option value="amarela">Linha 4 - AMARELA</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/mapa-metro.png" alt="Mapa do Metro de São Paulo">
+                </div>
+            </div>
+            <div class="dados">
+                    <div class="campo">
+                        <label for="tempoEstimado">Tempo estimado:</label>
+                        <input type="text" id="tempoEstimado" placeholder="00:00" readonly>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="totalBaldeacoes">Total de baldeações:</label>
+                        <input type="text" id="totalBaldeacoes" placeholder="0" readonly>
+                    </div>
+                <p>Passos para chegar ao destino</p>
+                <textarea id="resposta" placeholder="Sua resposta aparecerá aqui..."></textarea>
+            </div>            
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
     
     <footer class="footer">
         <div class="div-left">
@@ -71,5 +96,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/trajeto.js"></script>
+
 </body>
 </html>
